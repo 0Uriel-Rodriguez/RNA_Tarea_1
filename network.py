@@ -3,7 +3,7 @@ import numpy as np
 
 class Network(object):
 
-    def __init__(self, sizes):
+    def __init__(self, sizes): #Aqui vamos a definir...
         
         self.num_layers = len(sizes)
         self.sizes = sizes
